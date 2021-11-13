@@ -2,3 +2,239 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    background-color: #f7ede4;
+
+    height: 10vh;
+
+
+}
+
+.right ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+
+}
+
+.right ul li{
+    list-style: none;
+    margin: 0px 30px;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    cursor: pointer;
+
+}
+
+.nav-btn{
+    background: none;
+    border: none;
+    padding: 8px 32px;
+    font-size: 1.1rem;
+    border: 2px solid #f26e23;
+    border-radius: 100px;
+    transition: 200ms background-color ease-in-out;
+
+
+}
+
+.nav-btn:hover{
+    background-color:#f26e23 ;
+    cursor: pointer;
+
+}
+
+
+/* hero section */
+
+
+
+.hero{
+    background-color: #f7ede4;
+    height: 120vh;
+    position: relative;
+}
+
+.hero-img{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+}
+
+
+/* .hero-img{
+    background-image: url(./1.main/images/main-banner.png);
+    background-size: cover;
+} */
+
+
+
+/* popular curations */
+
+.popular{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+
+.heading{
+    font-size: 3rem;
+}
+
+.foodlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.foodlist ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.foodlist ul li{
+    justify-content: space-around;
+    margin: 0px 20px;
+    list-style: none;
+
+}
+
+.foodlist ul li img{
+    border-radius: 100px;
+
+}
+
+
+/* authentic ingredients */
+
+.authing{
+    height: 150vh;
+    background-color: #fcfae5
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.authing-header{
+    font-size: 4rem;
+    font-weight: bold;
+
+
+}
+
+.authen-main{
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.ingredients{
+    display: grid;
+
+}
+
+.common{
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.ingitems{
+    /* border: 2px solid red; */
+    margin: 10vh ;
+    list-style-image: url(./images/leaf.svg);
+
+}
+
+.mainline{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+
+}
+
+.subtext{
+        color: #6c6c6c;
+
+}
+
+
+/* FAQ */
+
+.faq{
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+.faq-head{
+    font-size: 3rem;
+    font-weight: bold;
+
+
+}
+
+.faq-accordian{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.accitem{
+    margin: 2vh 0 ;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+
+    font-size: 1.5rem;
+    max-width: 60vw;
+    min-width: 60vw;
+    text-align: left;
+
+
+}
+
+.accitem-text{
+    background: none
+    ;
+    margin-top: 20px;
+    font-weight: normal;
+    
+}
